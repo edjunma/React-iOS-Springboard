@@ -1,0 +1,12 @@
+{
+  "name": "react-ios-springboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html"
+  }
+}
