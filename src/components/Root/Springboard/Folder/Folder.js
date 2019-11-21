@@ -16,7 +16,11 @@ const FolderIcons = styled.div`
 	border-radius: 1rem;
 	box-sizing: border-box;
 	display: grid;
+	grid-gap: 0.25rem;
 	grid-template-columns: repeat(3, 1fr);
+	width: 5rem;
+	padding: 0.5rem;
+	height: 5rem;
 `;
 
 const FolderName = styled.span`
