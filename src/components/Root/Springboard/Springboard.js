@@ -16,7 +16,7 @@ const Springboard = ({ folders }) => {
 	return (
 		<Wrapper>
 			{folders.map(folder => (
-				<Folder key={folder.id} />
+				<Folder folder={folder} key={folder.id} />
 			))}
 		</Wrapper>
 	);
