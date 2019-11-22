@@ -39,9 +39,9 @@ const Wrapper = styled.div`
 	}
 `;
 
-const Folder = ({ folder }) => {
+const Folder = ({ folder, onOpen: pushOpen }) => {
 	return (
-		<Wrapper>
+		<Wrapper onClick={() => pushOpen()}>
 			<FolderIcons>
 				<AppIcon src={facebookLogo} />
 				<AppIcon src={messengerLogo} />
