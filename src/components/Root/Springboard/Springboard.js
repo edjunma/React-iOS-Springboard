@@ -16,6 +16,7 @@ const Wrapper = styled.div`
 	grid-template-columns: repeat(4, 1fr);
 	height: 60rem;
 	padding: 2rem;
+	position: relative;
 	width: 30rem;
 `;
 
